@@ -1,0 +1,22 @@
+{
+  "name": "proudcommerce/rocketboard",
+  "description": "RocketBoard Dashboard Integration",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [{
+    "name": "ProudCommerce",
+    "email": "beffy@proudcommerce.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "RocketBoard\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "RocketBoard\\RocketBoard",
+    "label": {
+      "de-DE": "RocketBoard Dashboard Integration",
+      "en-GB": "RocketBoard Dashboard Integration"
+    }
+  }
+}

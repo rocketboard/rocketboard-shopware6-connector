@@ -52,7 +52,7 @@ class RocketBoardController extends StorefrontController
     }
 
     /**
-     * @Route("/rocketboard/info", name="frontend.rocketboard.info", options={"seo"="false"}, methods={"GET"})
+     * @Route("/frontend/rocket_board/index", name="frontend.rocketboard.info", options={"seo"="false"}, methods={"GET"})
      */
     public function getShopInfo(Context $context): JsonResponse
     {
